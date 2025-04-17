@@ -1,0 +1,48 @@
+Synthetic Data Evaluation Summary
+===============================
+
+Parametric Method:
+-----------------
+Categorical Variables:
+  state - Jensen-Shannon Divergence: 0.0139
+  sex - Jensen-Shannon Divergence: 0.0001
+  race - Jensen-Shannon Divergence: 0.0000
+
+Numerical Variables:
+  age - KS Statistic: 0.0596, p-value: 0.0017
+  CBC:g/dL - KS Statistic: 0.0260, p-value: 0.5070
+  RC:% - KS Statistic: 0.0350, p-value: 0.1736
+  diagAge - KS Statistic: 0.0585, p-value: 0.0022
+
+Correlation Preservation - Frobenius Norm: 0.1007
+
+Multivariate Method:
+-----------------
+Categorical Variables:
+  state - Jensen-Shannon Divergence: 0.0139
+  sex - Jensen-Shannon Divergence: 0.0001
+  race - Jensen-Shannon Divergence: 0.0000
+
+Numerical Variables:
+  age - KS Statistic: 0.0763, p-value: 0.0000
+  CBC:g/dL - KS Statistic: 0.0351, p-value: 0.1698
+  RC:% - KS Statistic: 0.0236, p-value: 0.6334
+  diagAge - KS Statistic: 0.0591, p-value: 0.0019
+
+Correlation Preservation - Frobenius Norm: 0.0985
+
+GMM Method:
+-----------------
+Categorical Variables:
+  state - Jensen-Shannon Divergence: 0.0139
+  sex - Jensen-Shannon Divergence: 0.0001
+  race - Jensen-Shannon Divergence: 0.0000
+
+Numerical Variables:
+  age - KS Statistic: 0.0454, p-value: 0.0327
+  CBC:g/dL - KS Statistic: 0.0412, p-value: 0.0680
+  RC:% - KS Statistic: 0.0189, p-value: 0.8664
+  diagAge - KS Statistic: 0.0515, p-value: 0.0102
+
+Correlation Preservation - Frobenius Norm: 0.1299
+
